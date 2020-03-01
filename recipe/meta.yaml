@@ -22,8 +22,11 @@ requirements:
 
 test:
   requires:
+    - pip
     # This is a circular dependency b/c sphinx depends on this package now :-/
     - sphinx
+  commands:
+    - pip check
   imports:
     - sphinxcontrib
     - sphinxcontrib.serializinghtml
