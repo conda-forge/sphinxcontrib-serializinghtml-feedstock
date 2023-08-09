@@ -1,4 +1,4 @@
-{% set version = "1.1.6" %}
+{% set version = "1.1.7" %}
 
 package:
   name: sphinxcontrib-serializinghtml
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/sphinxcontrib-serializinghtml/sphinxcontrib_serializinghtml-{{ version }}.tar.gz
-  sha256: e04d06ac23c527378d62459ec968204afce0ef266733209d628b9a1a4051a78d
+  sha256: ca31afee32e1508cff4034e258060ce2c81a3b1c49e77da60fdb61f0e7a73c22
 
 build:
   number: 0
