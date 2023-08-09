@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/s/sphinxcontrib-serializinghtml/sphinxcontrib-serializinghtml-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/s/sphinxcontrib-serializinghtml/sphinxcontrib_serializinghtml-{{ version }}.tar.gz
   sha256: e04d06ac23c527378d62459ec968204afce0ef266733209d628b9a1a4051a78d
 
 build:
