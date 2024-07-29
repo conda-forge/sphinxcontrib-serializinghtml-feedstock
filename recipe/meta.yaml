@@ -11,7 +11,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
@@ -35,7 +35,7 @@ about:
   home: https://www.sphinx-doc.org/
   license: BSD-2-Clause
   license_family: BSD
-  license_file: LICENSE
+  license_file: LICENSE.rst
   summary: sphinxcontrib-serializinghtml is a sphinx extension which outputs "serialized" HTML files (json and pickle).
   doc_url: https://www.sphinx-doc.org/en/master/
   dev_url: https://github.com/sphinx-doc/sphinxcontrib-serializinghtml
